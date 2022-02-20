@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity(),NoteRecyclerAdapter.NoteListner {
     lateinit var notesAdapter: NoteRecyclerAdapter
 
   override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
